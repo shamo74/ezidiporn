@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> فيديو</title>
+    <title>مشغل فيديو</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -185,38 +185,31 @@
       <h2>هذه نافذة منبثقة</h2>
       
       
+      
       <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>رفع الفيديو وإرساله إلى تيليجرام</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رفع فيديو إلى تيليجرام</title>
+    <link rel="stylesheet" href="token.css">
 </head>
 <body>
-  <div>
-    <h1>رفع فيديو</h1>
-    <form id="videoForm">
-      <label for="videoName">اسم الفيديو:</label>
-      <input type="text" id="videoName" name="videoName" required>
-
-      <label for="videoDetails">تفاصيل الفيديو:</label>
-      <textarea id="videoDetails" name="videoDetails" required></textarea>
-
-      <label for="videoFile">رفع ملف الفيديو (MP4):</label>
-      <input type="file" id="videoFile" name="videoFile" accept="video/mp4" required>
-
-      <button type="submit">إرسال الفيديو</button>
-    </form>
-
-    <div id="progressContainer" style="display:none;">
-      <label>جاري رفع الفيديو...</label>
-      <progress id="uploadProgress" value="0" max="100"></progress>
+    <div class="container">
+        <h1>رفع فيديو إلى تيليجرام</h1>
+        <input type="text" id="titleInput" placeholder="عنوان الفيديو" required>
+        <input type="text" id="detailsInput" placeholder="تفصيل عن الفيديو" required>
+        <input type="file" id="mediaInput" accept="video/*" required>
+        <button id="uploadBtn">رفع</button>
+        
+        <div id="progressBar">
+            <div id="progress"></div>
+        </div>
+        
+        <div id="notification" class="notification"></div>
     </div>
 
-    <p id="statusMessage"></p>
-  </div>
-
-  <script src="token.js"></script>
+    <script src="token.js"></script>
 </body>
 </html>
       
@@ -279,4 +272,8 @@
     </script>
 
 </body>
-    </html>
+</html>
+
+
+
+        
