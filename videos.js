@@ -1,5 +1,5 @@
      // تحميل البيانات من ملف JSON خارجي
-        fetch('videos.json')
+        fetch('https://raw.githubusercontent.com/shamo74/ezidiporn/refs/heads/main/videos/videos.json')
             .then(response => response.json())
             .then(data => {
                 const videoLinks = data;
