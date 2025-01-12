@@ -5,10 +5,30 @@
     },
     {
         "name": "الفيديو الثاني",
-        "url": "https://www.example.com/video2.mp4"
+        "url": "https://em-h.phncdn.com/hls/videos/202212/05/420845801/1080P_4000K_420845801.mp4/master.m3u8?validfrom=1736642253&validto=1736649453&ipa=51.15.83.204&hdl=-1&hash=VMWQrpojDhpSgCUbvHhjm2SwBz8%3D"
     },
     {
         "name": "الفيديو الثالث",
+        "url": "https://em-h.phncdn.com/hls/videos/202104/15/386661761/1080P_8000K_386661761.mp4/master.m3u8?validfrom=1736641560&validto=1736648760&ipa=51.15.83.204&hdl=-1&hash=9Ghf4XvrTzAzU%2BzdOLXO91TZpu8%3D"
+    },
+        {
+        "name": "الفيديو الثالث",
+        "url": "https://em-h.phncdn.com/hls/videos/202111/07/397652961/1080P_8000K_397652961.mp4/master.m3u8?validfrom=1736641485&validto=1736648685&ipa=51.15.83.204&hdl=-1&hash=PQ65zuyEduI1Z%2FkTHy%2FiMH4YF9o%3D"
+    },
+        {
+        "name": "الفيديو الثالث",
         "url": "https://www.example.com/video3.mp4"
-    }
+    },
+        {
+        "name": "الفيديو الثالث",
+        "url": "https://www.example.com/video3.mp4"
+    },
+        {
+        "name": "الفيديو الثالث",
+        "url": "https://www.example.com/video3.mp4"
+    },
+        {
+        "name": "الفيديو الثالث",
+        "url": "https://www.example.com/video3.mp4"
+    },
 ]
