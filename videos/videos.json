@@ -1,0 +1,14 @@
+[
+    {
+        "name": "الفيديو الأول",
+        "url": "https://github.com/shamo74/ezidiporn/raw/refs/heads/main/videos/1000244831.mp4"
+    },
+    {
+        "name": "الفيديو الثاني",
+        "url": "https://www.example.com/video2.mp4"
+    },
+    {
+        "name": "الفيديو الثالث",
+        "url": "https://www.example.com/video3.mp4"
+    }
+]
