@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 20px;
     
-    color: #ecf0f1; /* نص أبيض */
+    
 }
 .container {
     max-width: 600px;
@@ -26,7 +26,7 @@ h1 {
     padding: 10px;
     border: 1px solid #95a5a6; /* لون حدود فاتح */
     border-radius: 5px;
-    background-color: #7f8c8d; /* خلفية داكنة للمدخلات */
+    background-color: black; /* خلفية داكنة للمدخلات */
     color: #ecf0f1; /* نص أبيض */
 }
 #progressBar {
